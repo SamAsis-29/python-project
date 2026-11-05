@@ -1,0 +1,24 @@
+﻿# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Node.js
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+!**/.env.example
+!**/.env.template
+
+# Logs and generated files
+*.log
+coverage/
+.turbo/
